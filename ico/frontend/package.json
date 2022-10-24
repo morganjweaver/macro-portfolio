@@ -1,0 +1,21 @@
+{
+  "name": "ico-frontend-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "ethers": "^5.5.2"
+  }
+}

@@ -1,0 +1,30 @@
+<title>Sample Project</title>
+<link rel="stylesheet" type="text/css" href="./index.css">
+
+<h1>SpaceCoin LP Dashboard</h1>
+
+<section>
+  <h2>ICO</h2>
+  <div>
+    IPO Phase: <span id="ico_spc_phase"></span>
+  </div>
+  <div>
+    SPC left to buy: <span id="ico_spc_left"></span>
+  </div>
+
+  <div>
+    Your redeemable (in open phase) SPC: <span id="ico_spc_earned"></span>
+  </div>
+
+  <form id="ico_spc_buy">
+    Buy SPC
+    <input name="eth" value="0.1" autocomplete="off">
+    <button type="submit">Buy</button>
+  </form>
+
+  <div>
+    Error: <span id="ico_error" style="color: red"></span>
+  </div>
+</section>
+
+<script type="module" src="./index.js"></script>
